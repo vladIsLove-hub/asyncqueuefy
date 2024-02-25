@@ -1,4 +1,3 @@
-import { setTimeout as sleep } from 'node:timers/promises';
 import {
   AsyncQueueOptions,
   FnType,
