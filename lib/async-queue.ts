@@ -105,7 +105,8 @@ export class AsyncQueue implements IAsyncQueue {
       }
       this.options.verbose && console.time(`${this.prefix} measure iteration`);
       await this.exec();
-      this.options.verbose && console.timeEnd(`${this.prefix} measure iteration`);
+      this.options.verbose &&
+        console.timeEnd(`${this.prefix} measure iteration`);
     }, this.options.intervalTimeout);
   }
 }
