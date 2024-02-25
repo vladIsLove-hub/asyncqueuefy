@@ -1,6 +1,6 @@
 {
   "name": "asyncqueuefy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Small and fast library that provides async queue",
   "main": "./dist/async-queue.js",
   "type": "module",
@@ -16,5 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.20"
   }
 }
