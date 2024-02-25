@@ -1,6 +1,6 @@
 {
   "name": "asyncqueuefy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small and fast library that provides async queue",
   "main": "./dist/async-queue.js",
   "type": "module",
