@@ -8,6 +8,10 @@
     "start": "node ./dist/async-queue.js",
     "build": "rm -rf dist && tsc -p tsconfig.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladIsLove-hub/asyncqueuefy.git"
+  },
   "keywords": [
     "TS",
     "Async Queue"
