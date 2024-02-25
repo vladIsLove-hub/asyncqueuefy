@@ -1,0 +1,20 @@
+{
+  "name": "asyncqueuefy",
+  "version": "1.0.0",
+  "description": "Small and fast library that provides async queue",
+  "main": "./dist/async-queue.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/async-queue.js",
+    "build": "rm -rf dist && tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "TS",
+    "Async Queue"
+  ],
+  "author": "vladislovedeveloper@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
