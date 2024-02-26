@@ -9,7 +9,7 @@ npm install asyncqueuefy --save
 ```
 
 ```typescript
-import AsyncQueue from 'asyncqueuefy';
+import { AsyncQueue } from 'asyncqueuefy';
 
 // Create a new instance of the queue with a batch size of 20 and execute it every 10 second
 const queue = new AsyncQueue({ batch: 20, intervalTimeout: 10e3, startExecOnInit: false });
